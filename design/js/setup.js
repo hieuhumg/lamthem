@@ -6,7 +6,7 @@ $(document).ready(function () {
         margin:0,
         dots: true,
         navigation: true,
-        autoplay:false,
+        autoplay:true,
         autoplayTimeout:4000,
         // autoplayHoverPause:true,
         responsiveClass:true,
@@ -22,4 +22,14 @@ $(document).ready(function () {
     });
     //opinion
     new WOW().init();
+
+    $('#nav').click(function () {
+       $('.menu-mobile ul').toggleClass('active');
+    });
+    $('#delete').click(function () {
+        $('.menu-mobile ul').removeClass('active');
+    });
+    // $('#search').click(function () {
+    //     $('.has-search').show(2);
+    // });
 });

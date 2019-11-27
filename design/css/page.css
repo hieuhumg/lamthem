@@ -111,22 +111,99 @@ p.content {
 .header {
   padding-top: 40px;
   position: relative; }
+  @media screen and (max-width: 768px) {
+    .header {
+      position: fixed;
+      z-index: 999;
+      width: 100%;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      background: #fff; } }
+  .header .flex-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
   .header .logo {
     width: 200px;
     height: auto; }
+    @media screen and (max-width: 768px) {
+      .header .logo {
+        width: 200px;
+        height: auto;
+        flex: 1;
+        text-align: center;
+        justify-content: center; } }
     .header .logo img {
       width: 100%;
       object-fit: cover; }
+      @media screen and (max-width: 768px) {
+        .header .logo img {
+          width: 30%; } }
   .header .search {
     position: absolute;
     top: 29%;
     right: 5%; }
+    @media screen and (max-width: 768px) {
+      .header .search {
+        position: inherit;
+        flex: 1;
+        text-align: right;
+        top: 1px;
+        right: 18px; } }
     .header .search i {
       font-size: 25px;
       cursor: pointer;
       color: #5d5d5dbf; }
       .header .search i:hover {
         color: #2d312ed9; }
+  .header .menu-mobile {
+    display: none;
+    position: relative;
+    z-index: 3;
+    top: 0;
+    left: 20px; }
+    @media screen and (max-width: 768px) {
+      .header .menu-mobile {
+        position: inherit;
+        z-index: 3;
+        flex: 1;
+        top: 0;
+        flex: 0 0 1 !important;
+        left: 20px;
+        text-align: left;
+        display: block; } }
+    .header .menu-mobile i#nav {
+      cursor: pointer;
+      font-size: 26px; }
+    .header .menu-mobile ul {
+      background: #efd6d6;
+      width: 200px;
+      height: 140%;
+      display: block;
+      height: 100%;
+      top: 0;
+      position: fixed;
+      left: -250px;
+      transition: .5s ease-out; }
+      .header .menu-mobile ul li {
+        padding: 9px 24px;
+        display: flex;
+        width: 193px;
+        border-bottom: 1px solid gray;
+        justify-content: space-between; }
+        .header .menu-mobile ul li a {
+          color: #683b1c; }
+        .header .menu-mobile ul li i {
+          color: #683b1c; }
+      .header .menu-mobile ul i#delete {
+        position: absolute;
+        top: 9px;
+        right: 9px;
+        font-size: 25px;
+        color: #683b1c; }
+
+.active {
+  left: 0 !important; }
 
 @media screen and (max-width: 768px) {
   .main-menu {
@@ -174,20 +251,22 @@ p.content {
         visibility: visible;
         opacity: 1; }
 
-.slider {
-  position: relative; }
-  .slider .img {
-    height: 383px;
-    background-size: cover !important; }
-    @media screen and (max-width: 980px) {
-      .slider .img {
-        padding-top: 70px; } }
-    @media screen and (max-width: 425px) {
-      .slider .img {
-        padding-top: 30px;
-        padding-bottom: 20px; } }
-  .slider .snow-canvas {
-    z-index: 2; }
+@media screen and (max-width: 768px) {
+  .slider {
+    position: relative;
+    top: 70px; } }
+.slider .img {
+  height: 383px;
+  background-size: cover !important; }
+  @media screen and (max-width: 980px) {
+    .slider .img {
+      padding-top: 70px; } }
+  @media screen and (max-width: 425px) {
+    .slider .img {
+      padding-top: 30px;
+      padding-bottom: 20px; } }
+.slider .snow-canvas {
+  z-index: 2; }
 
 .wedding-invitation h3.title {
   font-family: Cormorant;
@@ -341,13 +420,33 @@ p.content {
       font-size: 25px;
       padding-right: 18px;
       width: 40px; }
-    .footer ul.footer_box .icon i.fa.fa-youtube-play {
-      color: red; }
     .footer ul.footer_box .icon a.widget {
       display: flex; }
 
 .modal-dialog {
   max-width: 800px;
   margin: 30px auto; }
+
+.has-search .form-control {
+  padding-left: 2.375rem; }
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa; }
+
+.form-group.has-search {
+  width: 70%;
+  margin: 0 auto;
+  position: absolute;
+  top: 30%;
+  left: 15%;
+  display: none; }
 
 /*# sourceMappingURL=page.css.map */

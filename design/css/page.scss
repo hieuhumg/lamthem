@@ -1,20 +1,55 @@
 @import "common";
 //css header
+body {
+
+}
+
 .header {
+    @media screen and(max-width: $break-tablet) {
+        position: fixed;
+        z-index: 999;
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background: $color-white;
+    }
     padding-top: 40px;
     position: relative;
+    .flex-mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .logo {
         width: 200px;
         height: auto;
+        @media screen and (max-width: $break-tablet){
+            width: 200px;
+            height: auto;
+            flex: 1;
+            text-align: center;
+            justify-content: center;
+        }
         img {
+            @media screen and(max-width: $break-tablet) {
+                width: 30%;
+            }
             width: 100%;
             object-fit: cover;
         }
     }
     .search {
+        @media screen and(max-width: $break-tablet) {
+            position: inherit;
+            flex: 1;
+            text-align: right;
+            top: 1px;
+            right: 18px;
+        }
         position: absolute;
         top: 29%;
         right: 5%;
+
         i {
             font-size: 25px;
             cursor: pointer;
@@ -24,7 +59,65 @@
             }
         }
     }
+    .menu-mobile {
+        @media screen and(max-width: $break-tablet) {
+            position: inherit;
+            z-index: 3;
+            flex: 1;
+            top: 0;
+            flex: 0 0 1 !important;
+            left: 20px;
+            text-align: left;
+            display: block;
+        }
+        display: none;
+        position: relative;
+        z-index: 3;
+        top: 0;
+        left: 20px;
+        i#nav {
+            cursor: pointer;
+            font-size: 26px;
+        }
+        ul {
+            background: #efd6d6;
+            width: 200px;
+            height: 140%;
+            display: block;
+            height: 100%;
+            top: 0;
+            position: fixed;
+            left: -250px;
+            transition: .5s ease-out;
+            li {
+                padding: 9px 24px;
+                display: flex;
+                width: 193px;
+                border-bottom: 1px solid gray;
+                justify-content: space-between;
+                a {
+                    color: $color-title;
+                }
+                i {
+                    color: $color-title;
+                }
+
+            }
+            i#delete {
+                position: absolute;
+                top: 9px;
+                right: 9px;
+                font-size: 25px;
+                color: $color-title;
+            }
+        }
+    }
 }
+.active {
+    left: 0!important;
+}
+//style menu mobile
+
 //css main-menu
 .main-menu {
     @media screen and (max-width: $break-tablet) {
@@ -98,7 +191,10 @@
     }
 }
 .slider {
-    position: relative;
+    @media screen and(max-width: $break-tablet) {
+        position: relative;
+        top: 70px;
+    }
     .img {
         height: 383px;
         background-size: cover !important;
@@ -334,9 +430,6 @@
                 padding-right: 18px;
                 width: 40px;
             }
-            i.fa.fa-youtube-play {
-                color: red;
-            }
             a.widget {
                 display: flex;
             }
@@ -347,4 +440,27 @@
 .modal-dialog {
     max-width: 800px;
     margin: 30px auto;
+}
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+.form-group.has-search {
+    width: 70%;
+    margin: 0 auto;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    display: none;
 }
