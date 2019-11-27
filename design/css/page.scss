@@ -139,8 +139,19 @@
             height: 400px;
         }
     }
+    h4.title {
+        padding-top: 20px;
+        line-height: 1.7;
+        a {
+            color: $color-title;
+            font-weight: 500;
+        }
+    }
     .video-item {
         padding: 20px;
+        @media screen and (max-width: $break-tablet) {
+            padding: 0;
+        }
         &:hover {
             .video-item-inner {
                 a:after {
@@ -150,11 +161,15 @@
 
         }
         .video-item-inner {
-            a {
                 width: 100%;
                 position: relative;
                 display: inline-block;
                 overflow: hidden;
+                img {
+                    @media screen and(max-width: $break-mobile) {
+                        height: 300px;
+                    }
+                }
                 i {
                     position: absolute;
                     top: 50%;
@@ -170,7 +185,6 @@
                     -webkit-transform: translateX(-50%) translateY(-50%);
                     transform: translateX(-49%) translateY(-50%);
                 }
-            }
             a:after {
                 content: "";
                 position: absolute;
@@ -181,11 +195,6 @@
                 background: #fff;
                 opacity: 0;
                 transition: opacity .5s ease-out;
-            }
-            .video-heading {
-                h5.title {
-                    padding-top: 10px;
-                }
             }
         }
     }
@@ -199,14 +208,10 @@
         border-bottom-right-radius: 50px;
         &:hover {
             box-shadow: 0px 11px 15px grey;
-            img {
-                transform: scale(1.1);
-            }
         }
         img {
             width: 100%;
             object-fit: cover;
-            transition: .5s;
         }
     }
 }
@@ -314,7 +319,7 @@
     ul.footer_box {
         h4 {
             font-size: 25px;
-            color: $color-pink;
+            color: $color-red;
             font-weight: 600;
         }
         li {
@@ -327,10 +332,19 @@
             i {
                 font-size: 25px;
                 padding-right: 18px;
+                width: 40px;
             }
             i.fa.fa-youtube-play {
                 color: red;
             }
+            a.widget {
+                display: flex;
+            }
         }
     }
+}
+//modal
+.modal-dialog {
+    max-width: 800px;
+    margin: 30px auto;
 }

@@ -5,7 +5,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<title>Trang chủ</title>
+		<title>Chi tiết</title>
 	    <!-- <meta http-equiv="x-ua-compatible" content="ie=edge"> -->
 	    <meta name="robots" content="noodp">
 		<!-- <link rel="import" href="https://fonts.googleapis.com/css?family=Poppins:100,300,400,400i,500,700%7CMontserrat:300,400,500,600,700"> -->
@@ -156,21 +156,21 @@
                                             Nơi tuyệt vời để khởi đầu hạnh phúc dài lâu.
                                             Hãy cùng nhau tạo nên những khoảnh khắc khó quên trong ngày trọng đại cùng với
                                             gia đình và bè bạn tại InterContinental Nha Trang.
-                                            <img class="images-detail" src="img/wedding-3.jpg" alt="">
+                                            <img class="images-detail wow bounce fadeInLeft" data-wow-duration="3s" src="img/wedding-3.jpg" alt="">
                                         </p>
                                         <p class="content">
                                             Tọa lạc trên con đường vàng Trần Phú, InterContinental Nha Trang được vinh danh là ‘Khách Sang Trọng Hàng Đầu Việt Nam 2018’ bầu chọn bởi tổ chức World Travel Awards; ‘Khách Sạn Ven Biển Sang Trọng Vùng Đông Nam Á 2018’ bầu chọn bởi
                                             tổ chức World Luxury Travel Awards và ‘Khách Sạn Năm Sao Hàng Đầu Việt Nam 2018’ do Bộ Văn Hóa, Thể Thao và Du Lịch bầu chọn.
-                                            <img class="images-detail" src="img/wedding-1.jpg" alt="">
-                                            <img class="images-detail" src="img/wedding-2.jpg" alt="">
+                                            <img class="images-detail wow bounce fadeInLeft" data-wow-duration="3s" src="img/wedding-1.jpg" alt="">
+                                            <img class="images-detail wow bounce fadeInLeft" data-wow-duration="3s" src="img/wedding-2.jpg" alt="">
                                         </p>
                                         <p class="content">
                                             Một số video sản phẩm
                                         </p>
                                     </div>
                                     <div class="detail-content-video">
-                                        <iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY">
-                                        </iframe>
+                                        <!--<iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY">-->
+                                        <!--</iframe>-->
                                     </div>
                                 </div>
                                 <div class="col-md-3">
@@ -250,10 +250,22 @@
                             <h4>Mạng xã hội</h4>
                             <div class="col-md-12 p-0">
                                 <div class="icon">
-                                    <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                    <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                                    <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                    <a href=""><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                                    <a href="" class="widget">
+                                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                                        <p class="content">facebook</p>
+                                    </a>
+                                    <a href="" class="widget">
+                                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                        <p class="content">linkedin</p>
+                                    </a>
+                                    <a href="" class="widget">
+                                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                                        <p class="content">twitter</p>
+                                    </a>
+                                    <a href="" class="widget">
+                                        <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                                        <p class="content">youtube</p>
+                                    </a>
                                 </div>
                             </div>
                         </ul>
@@ -261,20 +273,42 @@
                 </div>
             </div>
         </div>
-		<!-- Optional JavaScript -->
-		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-		<script src="js/jquery-3.4.1.js"></script>
-		<script src="js/popper.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<script src="js/float-panel.js"></script>
-		<script src="js/wow.min.js"></script>
-		<script src="js/custom.js"></script>
-		<script src="js/owl.carousel.js"></script>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="js/jquery-3.4.1.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/float-panel.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/custom.js"></script>
+        <script src="js/owl.carousel.js"></script>
         <script src="js/snow-plugin.js"></script>
-		<script src="js/setup.js"></script>
+        <script src="js/setup.js"></script>
         <script>
             $(".snow-canvas").snow();
+            var $videoSrc;
+            $('.video-btn').click(function() {
+                $videoSrc = $(this).data( "src" );
+            });
+            console.log($videoSrc);
+
+
+
+            // when the modal is opened autoplay it
+            $('#myModal').on('shown.bs.modal', function (e) {
+
+// set the video src to autoplay and not to show related video. Youtube related video is like a box of chocolates... you never know what you're gonna get
+                $("#video").attr('src',$videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0" );
+            })
+
+
+
+            // stop playing the youtube video when I close the modal
+            $('#myModal').on('hide.bs.modal', function (e) {
+                // a poor man's stop video
+                $("#video").attr('src',$videoSrc);
+            })
         </script>
-	</body>
+    </body>
 
 </html>

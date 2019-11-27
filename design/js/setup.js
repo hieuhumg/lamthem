@@ -13,7 +13,7 @@ $(document).ready(function () {
         responsive:{
             0:{
                 items:1,
-                autoplay:false,
+                autoplay:true,
             },
             1200: {
                 dots: true
@@ -21,25 +21,5 @@ $(document).ready(function () {
         }
     });
     //opinion
-    $('#video').owlCarousel({
-        items:3,
-        loop:true,
-        margin:30,
-        dots: false,
-        navigation: true,
-        autoplay:false,
-        autoplayTimeout:4000,
-        // autoplayHoverPause:true,
-        responsiveClass:true,
-        responsive:{
-            0:{
-                items:1,
-                autoplay:false,
-
-            },
-            768: {
-                items:3,
-            }
-        }
-    });
+    new WOW().init();
 });

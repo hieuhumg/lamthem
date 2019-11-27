@@ -123,7 +123,7 @@
         <section class="wedding-invitation p-40">
             <div class="container">
                 <h3 class="title text-center">Sản Phẩm Nổi Bật</h3>
-                <div class="row">
+                <div class="row wow fadeInUp" data-wow-duration="5s">
                     <div class="col-md-6 col-lg-4 pb-4">
                         <div class="wedding-widget">
                             <div class="img">
@@ -243,56 +243,43 @@
                     Video Thiệp Cưới Đẹp
                 </h3>
                 <div class="row">
-                    <div id="video" class="owl-carousel owl-theme owl-loaded owl-drag">
-                        <div class="owl-stage-outer">
-                            <div class="owl-stage">
-                                <div class="owl-item">
-                                   <div class="video-item">
-                                       <div class="video-item-inner">
-                                           <a href="">
-                                               <img src="img/wedding-1.jpg" alt="">
-                                               <i class="fa fa-play" aria-hidden="true"></i>
-                                           </a>
-                                           <div class="video-heading">
-                                               <h5 class="title">
-                                                   <a href="">Thiệp cưới đẹp hot nhất năm 2020</a>
-                                               </h5>
-                                           </div>
-                                       </div>
-                                   </div>
-                                </div>
-                                <div class="owl-item">
-                                    <div class="video-item">
-                                        <div class="video-item-inner">
-                                            <a href="">
-                                                <img src="img/wedding-2.jpg" alt="">
-                                                <i class="fa fa-play" aria-hidden="true"></i>
-                                            </a>
-                                            <div class="video-heading">
-                                                <h5 class="title">
-                                                    <a href="">Thiệp cưới đẹp hot nhất năm 2020</a>
-                                                </h5>
-                                            </div>
+                    <div class="col-md-7">
+                        <div class="video-item">
+                            <div class="video-item-inner">
+                                    <img src="img/test.jpg" alt="">
+                                    <button type="button" class="btn  video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/Jfrjeg26Cwk" data-target="#myModal">
+                                        <i class="fa fa-play" aria-hidden="true"></i>
+                                    </button>
+                            </div>
+                        </div>
+                        <!-- modal -->
+                        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+
+                                    <div class="modal-body">
+
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                        <!-- 16:9 aspect ratio -->
+                                        <div class="embed-responsive embed-responsive-16by9">
+                                            <iframe class="embed-responsive-item" src="" id="video" allowscriptaccess="always" allow="autoplay"></iframe>
                                         </div>
+
                                     </div>
-                                </div>
-                                <div class="owl-item">
-                                    <div class="video-item">
-                                        <div class="video-item-inner">
-                                            <a href="">
-                                                <img src="img/wedding-3.jpg" alt="">
-                                                <i class="fa fa-play" aria-hidden="true"></i>
-                                            </a>
-                                            <div class="video-heading">
-                                                <h5 class="title">
-                                                    <a href="">Thiệp cưới đẹp hot nhất năm 2020</a>
-                                                </h5>
-                                            </div>
-                                        </div>
-                                    </div>
+
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    <div class="col-md-5">
+                        <h4 class="title">
+                            <a href="">Thiệp cưới đẹp hot nhất năm 2020</a>
+                        </h4>
+                        <p class="content">
+                            Về quê nuôi cá và trồng thêm rau
+                        </p>
                     </div>
                 </div>
             </div>
@@ -303,7 +290,7 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="banner-advertise">
-                            <a href=""><img src="img/advertise-2.jpg" alt=""></a>
+                            <a href=""><img src="img/banner-2.jpg" alt=""></a>
                         </div>
                     </div>
                 </div>
@@ -316,7 +303,7 @@
                     Thiệp Cưới Độc Đáo
                 </h3>
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-4 wow bounce fadeInLeft" data-wow-duration="4s" >
                         <div class="unique-widget">
                             <div class="img">
                                 <a href=""><img src="img/wedding-3.jpg" alt=""></a>
@@ -326,7 +313,7 @@
                             </h5>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 wow bounce fadeInDown" data-wow-duration="4s">
                         <div class="unique-widget">
                             <div class="img">
                                 <a href=""><img src="img/wedding-3.jpg" alt=""></a>
@@ -336,7 +323,7 @@
                             </h5>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 wow bounce fadeInRight" data-wow-duration="4s" data-wow-delay=".5s">
                         <div class="unique-widget">
                             <div class="img">
                                 <a href=""><img src="img/banner.jpg" alt=""></a>
@@ -346,7 +333,7 @@
                             </h5>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 wow bounce fadeInLeft">
                         <div class="unique-widget">
                             <div class="img">
                                 <a href=""><img src="img/wedding-1.jpg" alt=""></a>
@@ -356,7 +343,7 @@
                             </h5>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 wow bounce fadeInDown" data-wow-duration="4s" data-wow-delay=".5s">
                         <div class="unique-widget">
                             <div class="img">
                                 <a href=""><img src="img/banner-2.jpg" alt=""></a>
@@ -366,7 +353,7 @@
                             </h5>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 wow bounce fadeInRight" data-wow-duration="4s" data-wow-delay=".5s">
                         <div class="unique-widget">
                             <div class="img">
                                 <a href=""><img src="img/wedding-2.jpg" alt=""></a>
@@ -411,10 +398,22 @@
                             <h4>Mạng xã hội</h4>
                             <div class="col-md-12 p-0">
                                 <div class="icon">
-                                    <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                    <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                                    <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                    <a href=""><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                                    <a href="" class="widget">
+                                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                                        <p class="content">facebook</p>
+                                    </a>
+                                    <a href="" class="widget">
+                                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                        <p class="content">linkedin</p>
+                                    </a>
+                                    <a href="" class="widget">
+                                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                                        <p class="content">twitter</p>
+                                    </a>
+                                    <a href="" class="widget">
+                                        <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                                        <p class="content">youtube</p>
+                                    </a>
                                 </div>
                             </div>
                         </ul>
@@ -435,6 +434,28 @@
 		<script src="js/setup.js"></script>
         <script>
             $(".snow-canvas").snow();
+            var $videoSrc;
+            $('.video-btn').click(function() {
+                $videoSrc = $(this).data( "src" );
+            });
+            console.log($videoSrc);
+
+
+
+            // when the modal is opened autoplay it
+            $('#myModal').on('shown.bs.modal', function (e) {
+
+// set the video src to autoplay and not to show related video. Youtube related video is like a box of chocolates... you never know what you're gonna get
+                $("#video").attr('src',$videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0" );
+            })
+
+
+
+            // stop playing the youtube video when I close the modal
+            $('#myModal').on('hide.bs.modal', function (e) {
+                // a poor man's stop video
+                $("#video").attr('src',$videoSrc);
+            })
         </script>
 	</body>
 
