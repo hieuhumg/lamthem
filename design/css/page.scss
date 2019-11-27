@@ -1,0 +1,336 @@
+@import "common";
+//css header
+.header {
+    padding-top: 40px;
+    position: relative;
+    .logo {
+        width: 200px;
+        height: auto;
+        img {
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+    .search {
+        position: absolute;
+        top: 29%;
+        right: 5%;
+        i {
+            font-size: 25px;
+            cursor: pointer;
+            color: #5d5d5dbf;
+            &:hover {
+                color: #2d312ed9;
+            }
+        }
+    }
+}
+//css main-menu
+.main-menu {
+    @media screen and (max-width: $break-tablet) {
+        display: none;
+    }
+    .nav {
+        display: flex;
+        justify-content: center;
+        ul {
+            display: flex;
+            li {
+                margin: 0 20px;
+                padding: 30px 0;
+                position: relative;
+                a {
+                    &:hover {
+                        color: $color-hover;
+                    }
+                    font-size: 18px;
+                    color: $color-title;
+                    transition:all 1s;
+                }
+                //a::before {
+                //    content: "";
+                //    position: absolute;
+                //    bottom: 0;
+                //    height: 2px;
+                //    width: 0;
+                //    left: 50%;
+                //    background: #cc1515c7;
+                //    transition: all .5s;
+                //}
+                .sub-menu {
+                    position: absolute;
+                    top: 90px;
+                    width: 171px;
+                    box-shadow: 0px 4px 8px #e8dede;
+                    visibility: hidden;
+                    opacity: 0;
+                    transition: .3s;
+                    z-index: 9;
+                    background: $color-white;
+                    ul {
+                        display: flex;
+                        flex-flow: column;
+                        visibility: visible;
+                        li {
+                            padding: 10px;
+                            width: 100%;
+                            margin: 0;
+                            transition: 0.5s;
+                            border-bottom: 1px solid #ca8b6b61;
+                            &:hover {
+                                background: #ca8b6b61;
+                            }
+                            a {
+                                font-size: 16px;
+                            }
+                        }
+                    }
+                }
+                &:hover {
+                    .sub-menu {
+                        visibility: visible;
+                        opacity: 1;
+                    }
+                }
+            }
+
+        }
+    }
+}
+.slider {
+    position: relative;
+    .img {
+        height: 383px;
+        background-size: cover !important;
+        @media screen and (max-width: $break-medium) {
+            padding-top: 70px;
+        }
+        @media screen and (max-width: $break-mobile) {
+            padding-top: 30px;
+            padding-bottom: 20px;
+        }
+    }
+    .snow-canvas {
+        z-index: 2;
+    }
+}
+//css wedding-invitation
+.wedding-invitation {
+    h3.title {
+        font-family: Cormorant;
+        color: $color-title;
+        font-style: italic;
+        font-weight: 500;
+
+    }
+    .wedding-widget {
+
+    }
+}
+//css video
+.video {
+    background: #f3f5f6;
+    h3.title {
+        font-family: Cormorant;
+        color: $color-title;
+        font-style: italic;
+        font-weight: 500;
+        .img {
+            height: 400px;
+        }
+    }
+    .video-item {
+        padding: 20px;
+        &:hover {
+            .video-item-inner {
+                a:after {
+                    opacity: .5;
+                }
+            }
+
+        }
+        .video-item-inner {
+            a {
+                width: 100%;
+                position: relative;
+                display: inline-block;
+                overflow: hidden;
+                i {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    width: 70px;
+                    height: 70px;
+                    background: rgba(255, 255, 255, 0.5);
+                    border-radius: 100%;
+                    color: #fff;
+                    text-align: center;
+                    font-size: 44px;
+                    line-height: 69px;
+                    -webkit-transform: translateX(-50%) translateY(-50%);
+                    transform: translateX(-49%) translateY(-50%);
+                }
+            }
+            a:after {
+                content: "";
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                background: #fff;
+                opacity: 0;
+                transition: opacity .5s ease-out;
+            }
+            .video-heading {
+                h5.title {
+                    padding-top: 10px;
+                }
+            }
+        }
+    }
+}
+//css banner
+.banner {
+    .banner-advertise {
+        max-height: 355px;
+        overflow: hidden;
+        border-top-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        &:hover {
+            box-shadow: 0px 11px 15px grey;
+            img {
+                transform: scale(1.1);
+            }
+        }
+        img {
+            width: 100%;
+            object-fit: cover;
+            transition: .5s;
+        }
+    }
+}
+.unique {
+    h3.title {
+        font-family: Cormorant;
+        color: $color-title;
+        font-style: italic;
+        font-weight: 500;
+        .img {
+            height: 400px;
+        }
+    }
+    .unique-widget {
+        &:hover {
+            .img {
+                filter: grayscale(0);
+                box-shadow: 0px 10px 10px gray;
+
+                img {
+                    transform: scale(1);
+                }
+            }
+        }
+        .img {
+            overflow: hidden;
+            filter: grayscale(100%);
+            transition: .7s;
+            img {
+                transform: scale(1.2);
+                transition: .5s ease-out;
+            }
+        }
+    }
+}
+//style detail
+.detail {
+    .detail-product {
+        .img-product {
+            height: auto;
+            max-width: 100%;
+            overflow: hidden;
+            img {
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+        .title-product {
+            @media screen and (max-width: $break-tablet) {
+                margin-top: 20px;
+            }
+            margin-top: 0;
+            h1.title {
+                font-size: 30px;
+                color: $color-title;
+                font-weight: 600;
+            }
+            p {
+                color: $color-content;
+                font-size: 16px;
+            }
+        }
+    }
+    .detail-content {
+        padding-top: 40px;
+        p {
+            padding-bottom: 10px;
+            margin-bottom: 0;
+        }
+        img {
+            width: 100%;
+            object-fit: cover;
+            padding: 10px 0;
+        }
+        h3 {
+            color: $color-title;
+        }
+        .content-relate {
+            padding: 18px;
+        }
+    }
+}
+
+//style footer
+.footer {
+    background: #fddccc70;
+    border-top: 17px solid $color-title;
+    .logo-foot {
+        text-align: left;
+        img {
+            width: 50%;
+        }
+    }
+    ul {
+        padding-top: 23px;
+        li {
+            font-size: 18px;
+            padding: 9px 0;
+            a {
+                font-size: 18px;
+                color: $color-title;
+            }
+        }
+    }
+    ul.footer_box {
+        h4 {
+            font-size: 25px;
+            color: $color-pink;
+            font-weight: 600;
+        }
+        li {
+            a:hover {
+                color: $color-hover;
+            }
+        }
+        .icon {
+            padding-top: 20px;
+            i {
+                font-size: 25px;
+                padding-right: 18px;
+            }
+            i.fa.fa-youtube-play {
+                color: red;
+            }
+        }
+    }
+}

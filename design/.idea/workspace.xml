@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="91df144c-d4b9-4e63-9294-ceecc046b081" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="page.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/page.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="256" column="22" selection-start-line="256" selection-start-column="9" selection-end-line="256" selection-end-column="22" />
+              <folding>
+                <element signature="e#3314#3437#0" />
+                <element signature="e#3549#3581#0" />
+                <element signature="e#4410#4744#0" />
+                <element signature="e#5395#5569#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="detail.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/detail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="111" column="63" selection-start-line="111" selection-start-column="63" selection-end-line="111" selection-end-column="63" />
+              <folding>
+                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/page.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="173">
+              <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="641">
+              <caret line="411" column="49" selection-start-line="411" selection-start-column="49" selection-end-line="411" selection-end-column="49" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="setup.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/setup.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="616">
+              <caret line="40" column="24" lean-forward="true" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/common.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="616">
+              <caret line="64" column="21" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>achievements</find>
+      <find>scholarship</find>
+      <find>fir</find>
+      <find>contact-apply</find>
+      <find>apply-achiements</find>
+      <find>banner-top</find>
+      <find>list-title</find>
+      <find>why-content</find>
+      <find>why-define p-70</find>
+      <find>img-banner</find>
+      <find>banner-top-basic</find>
+      <find>banner-top-achievements</find>
+      <find>@ex</find>
+      <find>ul</find>
+      <find>h3</find>
+      <find>p.</find>
+      <find>p.date</find>
+      <find>date</find>
+      <find>background</find>
+      <find>@exten</find>
+      <find>banner-top-target</find>
+      <find>owl-item</find>
+      <find>dlmenu</find>
+      <find>prefixed</find>
+      <find>contact-right-pc position-fixed shadow</find>
+      <find>foo</find>
+      <find>h5</find>
+      <find>color-con</find>
+      <find>title</find>
+      <find>main</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/css/page.css" />
+        <option value="$PROJECT_DIR$/delicated.html" />
+        <option value="$PROJECT_DIR$/service.html" />
+        <option value="$PROJECT_DIR$/dev-service.html" />
+        <option value="$PROJECT_DIR$/img/uiux/svg/second.svg" />
+        <option value="$PROJECT_DIR$/img/uiux/svg/three.svg" />
+        <option value="$PROJECT_DIR$/img/uiux/svg/one.svg" />
+        <option value="$PROJECT_DIR$/img/uiux/svg/two.svg" />
+        <option value="$PROJECT_DIR$/img/uiux/svg/five.svg" />
+        <option value="$PROJECT_DIR$/img/uiux/svg/eight.svg" />
+        <option value="$PROJECT_DIR$/img/uiux/svg/six.svg" />
+        <option value="$PROJECT_DIR$/img/uiux/svg/seven.svg" />
+        <option value="$PROJECT_DIR$/img/uiux/svg/three-mobile.svg" />
+        <option value="$PROJECT_DIR$/uiux-service.html" />
+        <option value="$PROJECT_DIR$/css/reset.css" />
+        <option value="$PROJECT_DIR$/js/owl.carousel.js" />
+        <option value="$PROJECT_DIR$/achievement.html" />
+        <option value="$PROJECT_DIR$/relic.html" />
+        <option value="$PROJECT_DIR$/achievements.html" />
+        <option value="$PROJECT_DIR$/achievements-student.html" />
+        <option value="$PROJECT_DIR$/english-basic.html" />
+        <option value="$PROJECT_DIR$/why.html" />
+        <option value="$PROJECT_DIR$/target.html" />
+        <option value="$PROJECT_DIR$/share.html" />
+        <option value="$PROJECT_DIR$/css/menu.css" />
+        <option value="$PROJECT_DIR$/js/jquery.dlmenu.js" />
+        <option value="$PROJECT_DIR$/js/custom.js" />
+        <option value="$PROJECT_DIR$/contact.html" />
+        <option value="$PROJECT_DIR$/news.html" />
+        <option value="$PROJECT_DIR$/js/setup.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/common.scss" />
+        <option value="$PROJECT_DIR$/css/page.scss" />
+        <option value="$PROJECT_DIR$/detail.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/css/node_modules/ajv/package.json" />
+      <path value="$PROJECT_DIR$/css/node_modules/asap/package.json" />
+      <path value="$PROJECT_DIR$/css/node_modules/asn1/package.json" />
+      <path value="$PROJECT_DIR$/css/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/css/node_modules/asynckit/package.json" />
+      <path value="$PROJECT_DIR$/css/node_modules/aws-sign2/package.json" />
+      <path value="$PROJECT_DIR$/css/node_modules/aws4/package.json" />
+      <path value="$PROJECT_DIR$/css/node_modules/bcrypt-pbkdf/package.json" />
+      <path value="$PROJECT_DIR$/css/node_modules/caseless/package.json" />
+      <path value="$PROJECT_DIR$/css/node_modules/clone/package.json" />
+      <path value="$PROJECT_DIR$/css/node_modules/combined-stream/package.json" />
+      <path value="$PROJECT_DIR$/css/node_modules/core-util-is/package.json" />
+      <path value="$PROJECT_DIR$/css/node_modules/dashdash/package.json" />
+      <path value="$PROJECT_DIR$/css/node_modules/delayed-stream/package.json" />
+      <path value="$PROJECT_DIR$/css/node_modules/ecc-jsbn/package.json" />
+      <path value="$PROJECT_DIR$/css/node_modules/errno/package.json" />
+      <path value="$PROJECT_DIR$/css/node_modules/extend/package.json" />
+      <path value="$PROJECT_DIR$/css/node_modules/extsprintf/package.json" />
+      <path value="$PROJECT_DIR$/css/node_modules/fast-deep-equal/package.json" />
+      <path value="$PROJECT_DIR$/css/node_modules/fast-json-stable-stringify/package.json" />
+      <path value="$PROJECT_DIR$/css/node_modules/forever-agent/package.json" />
+      <path value="$PROJECT_DIR$/css/node_modules/form-data/package.json" />
+      <path value="$PROJECT_DIR$/css/node_modules/getpass/package.json" />
+      <path value="$PROJECT_DIR$/css/node_modules/graceful-fs/package.json" />
+      <path value="$PROJECT_DIR$/css/node_modules/har-schema/package.json" />
+      <path value="$PROJECT_DIR$/css/node_modules/har-validator/package.json" />
+      <path value="$PROJECT_DIR$/css/node_modules/http-signature/package.json" />
+      <path value="$PROJECT_DIR$/css/node_modules/image-size/package.json" />
+      <path value="$PROJECT_DIR$/css/node_modules/is-typedarray/package.json" />
+      <path value="$PROJECT_DIR$/css/node_modules/isstream/package.json" />
+      <path value="$PROJECT_DIR$/css/node_modules/jsbn/package.json" />
+      <path value="$PROJECT_DIR$/css/node_modules/json-schema-traverse/package.json" />
+      <path value="$PROJECT_DIR$/css/node_modules/json-schema/package.json" />
+      <path value="$PROJECT_DIR$/css/node_modules/json-stringify-safe/package.json" />
+      <path value="$PROJECT_DIR$/css/node_modules/jsprim/package.json" />
+      <path value="$PROJECT_DIR$/css/node_modules/less/package.json" />
+      <path value="$PROJECT_DIR$/css/node_modules/less/test/import-module/package.json" />
+      <path value="$PROJECT_DIR$/css/node_modules/mime-db/package.json" />
+      <path value="$PROJECT_DIR$/css/node_modules/mime-types/package.json" />
+      <path value="$PROJECT_DIR$/css/node_modules/mime/package.json" />
+      <path value="$PROJECT_DIR$/css/node_modules/minimist/package.json" />
+      <path value="$PROJECT_DIR$/css/node_modules/mkdirp/package.json" />
+      <path value="$PROJECT_DIR$/css/node_modules/oauth-sign/package.json" />
+      <path value="$PROJECT_DIR$/css/node_modules/performance-now/package.json" />
+      <path value="$PROJECT_DIR$/css/node_modules/promise/package.json" />
+      <path value="$PROJECT_DIR$/css/node_modules/prr/package.json" />
+      <path value="$PROJECT_DIR$/css/node_modules/psl/package.json" />
+      <path value="$PROJECT_DIR$/css/node_modules/punycode/package.json" />
+      <path value="$PROJECT_DIR$/css/node_modules/qs/package.json" />
+      <path value="$PROJECT_DIR$/css/node_modules/request/package.json" />
+      <path value="$PROJECT_DIR$/css/node_modules/safe-buffer/package.json" />
+      <path value="$PROJECT_DIR$/css/node_modules/safer-buffer/package.json" />
+      <path value="$PROJECT_DIR$/css/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/css/node_modules/sshpk/package.json" />
+      <path value="$PROJECT_DIR$/css/node_modules/tough-cookie/node_modules/punycode/package.json" />
+      <path value="$PROJECT_DIR$/css/node_modules/tough-cookie/package.json" />
+      <path value="$PROJECT_DIR$/css/node_modules/tunnel-agent/package.json" />
+      <path value="$PROJECT_DIR$/css/node_modules/tweetnacl/package.json" />
+      <path value="$PROJECT_DIR$/css/node_modules/uri-js/package.json" />
+      <path value="$PROJECT_DIR$/css/node_modules/uuid/package.json" />
+      <path value="$PROJECT_DIR$/css/node_modules/verror/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="design" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="F:/WG/WG/adamo" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.SCSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\4 word\design" />
+      <recent name="F:\WG\WG\adamo\js" />
+      <recent name="E:\WG\WG\adamo" />
+      <recent name="F:\WG\WG\adamo" />
+      <recent name="E:\ADAMO\adamo\adamo" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="91df144c-d4b9-4e63-9294-ceecc046b081" name="Default" comment="" />
+      <created>1568607495970</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568607495970</updated>
+      <workItem from="1568607497369" duration="17818000" />
+      <workItem from="1568674231714" duration="4868000" />
+      <workItem from="1568684446963" duration="23523000" />
+      <workItem from="1568770072436" duration="631000" />
+      <workItem from="1568790743550" duration="10934000" />
+      <workItem from="1568848727149" duration="3261000" />
+      <workItem from="1568857585883" duration="21170000" />
+      <workItem from="1568959799007" duration="11306000" />
+      <workItem from="1569194254905" duration="3107000" />
+      <workItem from="1569202095351" duration="7703000" />
+      <workItem from="1569288700745" duration="3750000" />
+      <workItem from="1569374799631" duration="1855000" />
+      <workItem from="1574045135020" duration="21086000" />
+      <workItem from="1574127310189" duration="12095000" />
+      <workItem from="1574145405453" duration="8773000" />
+      <workItem from="1574203197912" duration="9373000" />
+      <workItem from="1574300103586" duration="22869000" />
+      <workItem from="1574372730201" duration="4685000" />
+      <workItem from="1574387931119" duration="42000" />
+      <workItem from="1574388316602" duration="223000" />
+      <workItem from="1574388574817" duration="24872000" />
+      <workItem from="1574558152341" duration="33177000" />
+      <workItem from="1574636847418" duration="566000" />
+      <workItem from="1574637433243" duration="3334000" />
+      <workItem from="1574694881963" duration="10881000" />
+      <workItem from="1574776927000" duration="31462000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="331596000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13489583" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32954547" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/react_native.html" />
+    <entry file="file://$PROJECT_DIR$/css/common.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15288">
+          <caret line="546" column="20" selection-start-line="546" selection-start-column="20" selection-end-line="546" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about_us.html" />
+    <entry file="file://$PROJECT_DIR$/css/tel.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dedicated.html" />
+    <entry file="file://$PROJECT_DIR$/css/tel.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/expertise_f_and_b.html" />
+    <entry file="file://$PROJECT_DIR$/contact_us.html" />
+    <entry file="file://$PROJECT_DIR$/img/dedicated/description-1.jpg" />
+    <entry file="file://$PROJECT_DIR$/expertise.html" />
+    <entry file="file://$PROJECT_DIR$/react_native.html" />
+    <entry file="file://$PROJECT_DIR$/about_us.html" />
+    <entry file="file://$PROJECT_DIR$/img/uiux/svg/second.svg" />
+    <entry file="file://$PROJECT_DIR$/img/uiux/svg/three.svg" />
+    <entry file="file://$PROJECT_DIR$/img/uiux/svg/one.svg" />
+    <entry file="file://$PROJECT_DIR$/img/uiux/svg/two.svg" />
+    <entry file="file://$PROJECT_DIR$/dedicated.html" />
+    <entry file="file://$PROJECT_DIR$/img/uiux/svg/five.svg" />
+    <entry file="file://$PROJECT_DIR$/img/uiux/svg/eight.svg" />
+    <entry file="file://$PROJECT_DIR$/img/uiux/svg/six.svg" />
+    <entry file="file://$PROJECT_DIR$/img/uiux/svg/seven.svg" />
+    <entry file="file://$PROJECT_DIR$/img/uiux/svg/three-mobile.svg" />
+    <entry file="file://$PROJECT_DIR$/dev-service.html" />
+    <entry file="file://$PROJECT_DIR$/img/our-service.jpg" />
+    <entry file="file://$PROJECT_DIR$/img/anh_nen_thu_2.png" />
+    <entry file="file://$PROJECT_DIR$/img/adamo_digital_logo_white.png" />
+    <entry file="file://$PROJECT_DIR$/img/logo_chim.png" />
+    <entry file="file://$PROJECT_DIR$/img/logo.png" />
+    <entry file="file://$PROJECT_DIR$/img/reactjs.png" />
+    <entry file="file://$PROJECT_DIR$/uiux-service.html" />
+    <entry file="file://$PROJECT_DIR$/css/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="55" column="19" lean-forward="true" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/owl.carousel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="3441" column="32" lean-forward="true" selection-start-line="3441" selection-start-column="32" selection-end-line="3441" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/home/background.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://E:/ADAMO/adamo/adamo/css/page.scss" />
+    <entry file="file://$PROJECT_DIR$/achievements.html" />
+    <entry file="file://$PROJECT_DIR$/english-basic.html" />
+    <entry file="file://$PROJECT_DIR$/why.html" />
+    <entry file="file://$PROJECT_DIR$/achievements-student.html" />
+    <entry file="file://$PROJECT_DIR$/target.html" />
+    <entry file="file://$PROJECT_DIR$/share.html" />
+    <entry file="file://$PROJECT_DIR$/css/menu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="837">
+          <caret line="823" lean-forward="true" selection-start-line="823" selection-end-line="823" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact.html" />
+    <entry file="file://$PROJECT_DIR$/news.html" />
+    <entry file="file://$PROJECT_DIR$/js/jquery.dlmenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/setup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="40" column="24" lean-forward="true" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/page.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="641">
+          <caret line="411" column="49" selection-start-line="411" selection-start-column="49" selection-end-line="411" selection-end-column="49" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/common.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="64" column="21" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/page.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="256" column="22" selection-start-line="256" selection-start-column="9" selection-end-line="256" selection-end-column="22" />
+          <folding>
+            <element signature="e#3314#3437#0" />
+            <element signature="e#3549#3581#0" />
+            <element signature="e#4410#4744#0" />
+            <element signature="e#5395#5569#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="111" column="63" selection-start-line="111" selection-start-column="63" selection-end-line="111" selection-end-column="63" />
+          <folding>
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
