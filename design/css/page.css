@@ -251,22 +251,24 @@ p.content {
         visibility: visible;
         opacity: 1; }
 
-@media screen and (max-width: 768px) {
-  .slider {
-    position: relative;
-    top: 70px; } }
-.slider .img {
-  height: 383px;
-  background-size: cover !important; }
-  @media screen and (max-width: 980px) {
-    .slider .img {
-      padding-top: 70px; } }
-  @media screen and (max-width: 425px) {
-    .slider .img {
-      padding-top: 30px;
-      padding-bottom: 20px; } }
-.slider .snow-canvas {
-  z-index: 2; }
+.slider {
+  position: relative; }
+  @media screen and (max-width: 768px) {
+    .slider {
+      position: relative;
+      top: 70px; } }
+  .slider .img {
+    height: 383px;
+    background-size: cover !important; }
+    @media screen and (max-width: 980px) {
+      .slider .img {
+        padding-top: 70px; } }
+    @media screen and (max-width: 425px) {
+      .slider .img {
+        padding-top: 30px;
+        padding-bottom: 20px; } }
+  .slider .snow-canvas {
+    z-index: 2; }
 
 .wedding-invitation h3.title {
   font-family: Cormorant;
@@ -393,6 +395,37 @@ p.content {
   .detail .detail-content .content-relate {
     padding: 18px; }
 
+.shop h3.title {
+  font-family: Cormorant;
+  font-style: italic; }
+.shop .category {
+  display: flex;
+  flex-wrap: wrap; }
+  .shop .category .widget {
+    flex: 0 0 25%;
+    margin-top: 15px;
+    text-align: center;
+    background: #e8e8e8;
+    border: 0.1px solid #c3c3c3; }
+    .shop .category .widget:hover {
+      background: #c10000; }
+      .shop .category .widget:hover h5 a {
+        color: #fff; }
+    .shop .category .widget h5 {
+      padding: 10px 20px 0px 20px;
+      font-size: 20px; }
+      .shop .category .widget h5 a {
+        color: #683b1c; }
+  .shop .category .active {
+    background: #c10000; }
+    .shop .category .active h5 a {
+      color: #fff; }
+
+.product {
+  background: #f7f7f7; }
+  .product .wedding-widget {
+    margin-top: 20px; }
+
 .footer {
   background: #fddccc70;
   border-top: 17px solid #683b1c; }
@@ -410,7 +443,7 @@ p.content {
         color: #683b1c; }
   .footer ul.footer_box h4 {
     font-size: 25px;
-    color: red;
+    color: #c10000;
     font-weight: 600; }
   .footer ul.footer_box li a:hover {
     color: #212121; }
@@ -448,5 +481,16 @@ p.content {
   top: 30%;
   left: 15%;
   display: none; }
+
+.tab-menu > a {
+  display: block; }
+
+.mobile-sub-menu > a {
+  display: block;
+  padding-left: 15px; }
+
+.search-input {
+  top: -10px;
+  right: 40px; }
 
 /*# sourceMappingURL=page.css.map */
