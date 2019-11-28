@@ -464,3 +464,20 @@ body {
     left: 15%;
     display: none;
 }
+
+//truong
+.tab-menu {
+    > a {
+        display: block;
+    }
+}
+
+.mobile-sub-menu > a {
+    display: block;
+    padding-left: 15px;
+}
+
+.search-input {
+    top: -10px;
+    right: 40px;
+}
