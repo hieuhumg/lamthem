@@ -3,12 +3,12 @@
   src: url("../fonts/NotoSans-Bold.ttf") format("ttf"); }
 @font-face {
   font-family: Notosans;
-  src: url("../fonts/NotoSans-Regular.ttf") format("ttf"); }
+  src: url("../fonts/Gothic.ttf") format("ttf"); }
 @font-face {
   font-family: Cormorant;
   src: url("../fonts/Cormorant-Regular.ttf") format("ttf"); }
 body {
-  font-family: Notosans, Helvetica, tahoma, sans-serif; }
+  font-family: Gothic, Helvetica, tahoma, sans-serif; }
 
 .snow-canvas {
   width: 100%;
@@ -67,6 +67,7 @@ p.content {
       transform: scale(1.2); }
   .wedding-widget .img {
     max-height: 200px;
+    border-radius: 14px;
     overflow: hidden; }
     @media screen and (max-width: 768px) {
       .wedding-widget .img {
@@ -107,5 +108,14 @@ p.content {
       transition: 0.2s; }
       .unique-widget h5.title a:hover {
         color: #ec3d79; }
+
+.modal-body {
+  position: relative;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 0; }
+
+.modal-content {
+  margin-top: 200px; }
 
 /*# sourceMappingURL=common.css.map */

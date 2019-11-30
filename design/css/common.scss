@@ -5,7 +5,7 @@
 }
 @font-face{
 	font-family: Notosans;
-	src:url('../fonts/NotoSans-Regular.ttf') format("ttf");
+	src:url('../fonts/Gothic.ttf') format("ttf");
 }
 @font-face{
 	font-family: Cormorant;
@@ -34,7 +34,7 @@ $color-content: #604f32;
 $color-red: #c10000;
 $color-background: #f7f7f7;
 body{
-	font-family: Notosans, Helvetica, tahoma, sans-serif;
+	font-family: Gothic, Helvetica, tahoma, sans-serif;
 }
 .snow-canvas {
 	//display: block;
@@ -106,6 +106,7 @@ p.content {
 			max-height: 280px;
 		}
 		max-height: 200px;
+		border-radius: 14px;
 		overflow: hidden;
 		img {
 			width: 100%;
@@ -165,4 +166,13 @@ p.content {
 
 	}
 }
-
+//style modal
+.modal-body {
+	position: relative;
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
+	padding: 0;
+}
+.modal-content {
+	margin-top: 200px;
+}

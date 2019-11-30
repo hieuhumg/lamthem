@@ -8,6 +8,8 @@ $(document).ready(function () {
         navigation: true,
         autoplay:true,
         autoplayTimeout:4000,
+        animateIn: 'fadeIn', // add this
+        animateOut: 'fadeOut', // and this
         // autoplayHoverPause:true,
         responsiveClass:true,
         responsive:{

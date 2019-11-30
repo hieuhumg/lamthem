@@ -228,7 +228,7 @@ body {
 .video {
     background: #f3f5f6;
     h3.title {
-        font-family: Cormorant;
+        font-family: 'Gothic';
         color: $color-title;
         font-style: italic;
         font-weight: 500;
@@ -262,9 +262,13 @@ body {
                 position: relative;
                 display: inline-block;
                 overflow: hidden;
+                max-height: 350px;
+                height: 100%;
+                border-radius: 12px;
                 img {
+                    width: 100%;
                     @media screen and(max-width: $break-mobile) {
-                        height: 300px;
+                        height: 200px;
                     }
                 }
                 i {
