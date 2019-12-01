@@ -80,7 +80,7 @@ body {
             font-size: 26px;
         }
         ul {
-            background: #efd6d6;
+            background: rgba(203, 204, 207, 0.96);
             width: 200px;
             height: 140%;
             display: block;
@@ -89,6 +89,7 @@ body {
             position: fixed;
             left: -250px;
             transition: .5s ease-out;
+            box-shadow: 0 0px 14px grey;
             li {
                 padding: 9px 24px;
                 display: flex;
@@ -218,7 +219,9 @@ body {
         color: $color-title;
         font-style: italic;
         font-weight: 500;
-
+    }
+    h5.title {
+        text-align: center;
     }
     .wedding-widget {
 
@@ -244,61 +247,6 @@ body {
             font-weight: 500;
         }
     }
-    .video-item {
-        padding: 20px;
-        @media screen and (max-width: $break-tablet) {
-            padding: 0;
-        }
-        &:hover {
-            .video-item-inner {
-                a:after {
-                    opacity: .5;
-                }
-            }
-
-        }
-        .video-item-inner {
-                width: 100%;
-                position: relative;
-                display: inline-block;
-                overflow: hidden;
-                max-height: 350px;
-                height: 100%;
-                border-radius: 12px;
-                img {
-                    width: 100%;
-                    @media screen and(max-width: $break-mobile) {
-                        height: 200px;
-                    }
-                }
-                i {
-                    position: absolute;
-                    top: 50%;
-                    left: 50%;
-                    width: 70px;
-                    height: 70px;
-                    background: rgba(255, 255, 255, 0.5);
-                    border-radius: 100%;
-                    color: #fff;
-                    text-align: center;
-                    font-size: 44px;
-                    line-height: 69px;
-                    -webkit-transform: translateX(-50%) translateY(-50%);
-                    transform: translateX(-49%) translateY(-50%);
-                }
-            a:after {
-                content: "";
-                position: absolute;
-                top: 0;
-                right: 0;
-                bottom: 0;
-                left: 0;
-                background: #fff;
-                opacity: 0;
-                transition: opacity .5s ease-out;
-            }
-        }
-    }
 }
 //css banner
 .banner {
@@ -317,6 +265,7 @@ body {
     }
 }
 .unique {
+    text-align: center;
     h3.title {
         font-family: Cormorant;
         color: $color-title;
@@ -448,8 +397,8 @@ body {
 
 //style footer
 .footer {
-    background: #fddccc70;
-    border-top: 17px solid $color-title;
+    background: rgba(203, 204, 207, 0.2);
+    border-top: 17px solid rgba(0, 0, 0, 0.4);;
     .logo-foot {
         text-align: left;
         img {
@@ -479,7 +428,7 @@ body {
             }
         }
         .icon {
-            padding-top: 20px;
+            padding-top: 10px;
             i {
                 font-size: 25px;
                 padding-right: 18px;
@@ -488,6 +437,11 @@ body {
             a.widget {
                 display: flex;
             }
+        }
+        img {
+            width: 25px;
+            height: 25px;
+            margin-right: 16px;
         }
     }
 }
@@ -518,6 +472,16 @@ body {
     top: 30%;
     left: 15%;
     display: none;
+}
+.video-page {
+    .video-item {
+        @media screen and (max-width: $break-medium) {
+            width: 100%;
+        }
+        padding: 0;
+        width: 60%;
+    }
+
 }
 
 //menu

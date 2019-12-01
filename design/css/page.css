@@ -30,9 +30,10 @@ h4.title {
   font-size: 30px; }
 
 h5.title a {
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 600;
-  color: #683b1c; }
+  color: #683b1c;
+  text-transform: uppercase; }
 
 .btn-common {
   font-size: 13px;
@@ -108,6 +109,51 @@ p.content {
       transition: 0.2s; }
       .unique-widget h5.title a:hover {
         color: #ec3d79; }
+
+.video-item {
+  padding: 20px; }
+  @media screen and (max-width: 768px) {
+    .video-item {
+      padding: 0; } }
+  .video-item:hover .video-item-inner a:after {
+    opacity: .5; }
+  .video-item .video-item-inner {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    max-height: 350px;
+    height: 100%;
+    border-radius: 12px; }
+    .video-item .video-item-inner img {
+      width: 100%; }
+      @media screen and (max-width: 425px) {
+        .video-item .video-item-inner img {
+          height: 200px; } }
+    .video-item .video-item-inner i {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 70px;
+      height: 70px;
+      background: rgba(255, 255, 255, 0.5);
+      border-radius: 100%;
+      color: #fff;
+      text-align: center;
+      font-size: 44px;
+      line-height: 69px;
+      -webkit-transform: translateX(-50%) translateY(-50%);
+      transform: translateX(-49%) translateY(-50%); }
+    .video-item .video-item-inner a:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: #fff;
+      opacity: 0;
+      transition: opacity .5s ease-out; }
 
 .modal-body {
   position: relative;
@@ -186,7 +232,7 @@ p.content {
       cursor: pointer;
       font-size: 26px; }
     .header .menu-mobile ul {
-      background: #efd6d6;
+      background: rgba(203, 204, 207, 0.96);
       width: 200px;
       height: 140%;
       display: block;
@@ -194,7 +240,8 @@ p.content {
       top: 0;
       position: fixed;
       left: -250px;
-      transition: .5s ease-out; }
+      transition: .5s ease-out;
+      box-shadow: 0 0px 14px grey; }
       .header .menu-mobile ul li {
         padding: 9px 24px;
         display: flex;
@@ -285,6 +332,8 @@ p.content {
   color: #683b1c;
   font-style: italic;
   font-weight: 500; }
+.wedding-invitation h5.title {
+  text-align: center; }
 
 .video {
   background: #f3f5f6; }
@@ -301,50 +350,6 @@ p.content {
     .video h4.title a {
       color: #683b1c;
       font-weight: 500; }
-  .video .video-item {
-    padding: 20px; }
-    @media screen and (max-width: 768px) {
-      .video .video-item {
-        padding: 0; } }
-    .video .video-item:hover .video-item-inner a:after {
-      opacity: .5; }
-    .video .video-item .video-item-inner {
-      width: 100%;
-      position: relative;
-      display: inline-block;
-      overflow: hidden;
-      max-height: 350px;
-      height: 100%;
-      border-radius: 12px; }
-      .video .video-item .video-item-inner img {
-        width: 100%; }
-        @media screen and (max-width: 425px) {
-          .video .video-item .video-item-inner img {
-            height: 200px; } }
-      .video .video-item .video-item-inner i {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        width: 70px;
-        height: 70px;
-        background: rgba(255, 255, 255, 0.5);
-        border-radius: 100%;
-        color: #fff;
-        text-align: center;
-        font-size: 44px;
-        line-height: 69px;
-        -webkit-transform: translateX(-50%) translateY(-50%);
-        transform: translateX(-49%) translateY(-50%); }
-      .video .video-item .video-item-inner a:after {
-        content: "";
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        background: #fff;
-        opacity: 0;
-        transition: opacity .5s ease-out; }
 
 .banner .banner-advertise {
   max-height: 355px;
@@ -357,25 +362,27 @@ p.content {
     width: 100%;
     object-fit: cover; }
 
-.unique h3.title {
-  font-family: Cormorant;
-  color: #683b1c;
-  font-style: italic;
-  font-weight: 500; }
-  .unique h3.title .img {
-    height: 400px; }
-.unique .unique-widget:hover .img {
-  filter: grayscale(0);
-  box-shadow: 0px 10px 10px gray; }
-  .unique .unique-widget:hover .img img {
-    transform: scale(1); }
-.unique .unique-widget .img {
-  overflow: hidden;
-  filter: grayscale(100%);
-  transition: .7s; }
-  .unique .unique-widget .img img {
-    transform: scale(1.2);
-    transition: .5s ease-out; }
+.unique {
+  text-align: center; }
+  .unique h3.title {
+    font-family: Cormorant;
+    color: #683b1c;
+    font-style: italic;
+    font-weight: 500; }
+    .unique h3.title .img {
+      height: 400px; }
+  .unique .unique-widget:hover .img {
+    filter: grayscale(0);
+    box-shadow: 0px 10px 10px gray; }
+    .unique .unique-widget:hover .img img {
+      transform: scale(1); }
+  .unique .unique-widget .img {
+    overflow: hidden;
+    filter: grayscale(100%);
+    transition: .7s; }
+    .unique .unique-widget .img img {
+      transform: scale(1.2);
+      transition: .5s ease-out; }
 
 .detail .detail-product .img-product {
   height: auto;
@@ -442,8 +449,8 @@ p.content {
     margin-top: 20px; }
 
 .footer {
-  background: #fddccc70;
-  border-top: 17px solid #683b1c; }
+  background: rgba(203, 204, 207, 0.2);
+  border-top: 17px solid rgba(0, 0, 0, 0.4); }
   .footer .logo-foot {
     text-align: left; }
     .footer .logo-foot img {
@@ -463,13 +470,17 @@ p.content {
   .footer ul.footer_box li a:hover {
     color: #212121; }
   .footer ul.footer_box .icon {
-    padding-top: 20px; }
+    padding-top: 10px; }
     .footer ul.footer_box .icon i {
       font-size: 25px;
       padding-right: 18px;
       width: 40px; }
     .footer ul.footer_box .icon a.widget {
       display: flex; }
+  .footer ul.footer_box img {
+    width: 25px;
+    height: 25px;
+    margin-right: 16px; }
 
 .modal-dialog {
   max-width: 800px;
@@ -496,6 +507,13 @@ p.content {
   top: 30%;
   left: 15%;
   display: none; }
+
+.video-page .video-item {
+  padding: 0;
+  width: 60%; }
+  @media screen and (max-width: 980px) {
+    .video-page .video-item {
+      width: 100%; } }
 
 .tab-menu > a {
   display: block; }

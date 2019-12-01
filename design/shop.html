@@ -27,71 +27,91 @@
 	    </script>
 	</head>
 	<body>
-        <div class="header">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="logo mx-auto">
-                            <img src="img/logo.png" alt="">
-                        </div>
-                        <div class="search">
-                            <i class="fa fa-search"></i>
-                        </div>
+    <div id="fb-root"></div>
+    <div class="header">
+        <div class="container-fluid p-0">
+            <div class="row">
+                <div class="col-12 flex-mobile">
+                    <div class="menu-mobile">
+                        <i id="nav" class="fa fa-bars" aria-hidden="true"></i>
+                        <ul>
+                            <li><a href="index.html">Trang chủ</a></li>
+                            <li><a href="introduce.html">Giới thiệu</a></li>
+                            <li><a href="shop.html">Sản phẩm</a><i class="fa fa-sort-desc" aria-hidden="true"></i></li>
+                            <li><a href="">Thiệp cưới</a></li>
+                            <li><a href="">Chụp ảnh cưới</a></li>
+                            <li><a href="">Sách tiếng anh</a></li>
+                            <i id="delete" class="fa fa-times" aria-hidden="true"></i>
+                        </ul>
+                    </div>
+                    <div class="logo mx-auto">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                    <div class="search position-relative" id="search">
+                        <input type="text" class="form-control position-absolute search-input w-auto" placeholder="Tìm kiếm" style="display: none">
+                        <i class="fa fa-search" onclick="showSearchInput()"></i>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="main-menu">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="nav">
-                            <ul>
-                                <li>
-                                    <a href="">Trang chủ</a>
-                                </li>
-                                <li>
-                                    <a href="">Giới thiệu</a>
-                                </li>
-                                <li>
-                                    <a href="">Sản Phẩm</a>
-                                    <div class="sub-menu">
-                                        <ul>
-                                            <li>
-                                                <a href="">
-                                                    Thiệp cưới
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="">
-                                                    Chụp ảnh cưới
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="">
-                                                    Thiết kế logo
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="">
-                                                    Chụp ảnh kỷ yếu
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li>
-                                    <a href="">Tư Vấn</a>
-                                </li>
-                                <li>
-                                    <a href="">Thanh Toán</a>
-                                </li>
-                            </ul>
-                        </div>
+        <form action="">
+            <div class="form-group has-search">
+                <span class="fa fa-search form-control-feedback"></span>
+                <input type="text" class="form-control" placeholder="Search">
+            </div>
+        </form>
+    </div>
+    <div class="main-menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="nav">
+                        <ul>
+                            <li>
+                                <a href="index.html">Trang chủ</a>
+                            </li>
+                            <li>
+                                <a href="introduce.html">Giới thiệu</a>
+                            </li>
+                            <li>
+                                <a href="shop.html">Sản Phẩm</a>
+                                <div class="sub-menu">
+                                    <ul>
+                                        <li>
+                                            <a href="detail.html">
+                                                Sản phẩm liên quan
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="video.html">
+                                                Video
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                Thiết kế logo
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                Chụp ảnh kỷ yếu
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="">Tư Vấn</a>
+                            </li>
+                            <li>
+                                <a href="">Thanh Toán</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
         <!-- main-menu -->
         <section class="shop p-40">
             <div class="container">
@@ -148,7 +168,7 @@
                 <div class="row">
                     <div class="col-12">
                         <h5 class="title">
-                            Sản phẩm hot
+
                         </h5>
                     </div>
                 </div>
@@ -235,60 +255,57 @@
             </div>
         </section>
         <div class="footer p-40">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="logo-foot">
-                            <a href=""><img src="img/logo.png" alt=""></a>
-                        </div>
-                        <ul>
-                            <li>Thiếp cưới Minsu</li>
-                            <li>hotline:0889.398039</li>
-                            <li>zalo: 0968.781.086</li>
-                            <li>Email: print89@gmail.com</li>
-                            <li>Website: <a href="">http://thiepcuoiminsu.vn</a></li>
-                            <li>Địa chỉ: Số 71 Láng Hạ - Đống Đa - Hà Nội</li>
-                        </ul>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="logo-foot">
+                        <a href=""><img src="img/logo.png" alt=""></a>
                     </div>
-                    <div class="col-md-4">
-                        <ul class="footer_box">
-                            <h4>Danh Mục</h4>
-                            <li><a href="">Thiệp cưới</a></li>
-                            <li><a href="">Sổ tay</a></li>
-                            <li><a href="">Phong bì</a></li>
-                            <li><a href="">Decal tem vỡ</a></li>
-                            <li><a href="">Logo thương hiệu</a></li>
-                            <li><a href="">Sách Tiếng anh</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-4">
-                        <ul class="footer_box">
-                            <h4>Mạng xã hội</h4>
-                            <div class="col-md-12 p-0">
-                                <div class="icon">
-                                    <a href="" class="widget">
-                                        <i class="fa fa-facebook" aria-hidden="true"></i>
-                                        <p class="content">facebook</p>
-                                    </a>
-                                    <a href="" class="widget">
-                                        <i class="fa fa-linkedin" aria-hidden="true"></i>
-                                        <p class="content">linkedin</p>
-                                    </a>
-                                    <a href="" class="widget">
-                                        <i class="fa fa-twitter" aria-hidden="true"></i>
-                                        <p class="content">twitter</p>
-                                    </a>
-                                    <a href="" class="widget">
-                                        <i class="fa fa-youtube-play" aria-hidden="true"></i>
-                                        <p class="content">youtube</p>
-                                    </a>
-                                </div>
+                    <ul>
+                        <li>Thiếp cưới Minsu</li>
+                        <li>hotline:0889.398039</li>
+                        <li>zalo: 0968.781.086</li>
+                        <li>Email: print89@gmail.com</li>
+                        <li>Website: <a href="">http://thiepcuoiminsu.vn</a></li>
+                        <li>Địa chỉ: Số 71 Láng Hạ - Đống Đa - Hà Nội</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="footer_box">
+                        <h4>Danh Mục</h4>
+                        <li><a href="">Thiệp cưới</a></li>
+                        <li><a href="">Sổ tay</a></li>
+                        <li><a href="">Phong bì</a></li>
+                        <li><a href="">Decal tem vỡ</a></li>
+                        <li><a href="">Logo thương hiệu</a></li>
+                        <li><a href="">Sách Tiếng anh</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="footer_box">
+                        <h4>Mạng xã hội</h4>
+                        <div class="col-md-12 p-0">
+                            <div class="icon">
+                                <a href="" class="widget">
+                                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                                    <p class="content">facebook</p>
+                                </a>
+                                <a href="" class="widget">
+                                    <img src="img/zalo.png" alt="">
+                                    <p class="content">zalo</p>
+                                </a>
+                                <a href="" class="widget">
+                                    <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                                    <p class="content">youtube</p>
+                                </a>
                             </div>
-                        </ul>
-                    </div>
+                        </div>
+                    </ul>
+                    <div class="fb-page" data-href="https://www.facebook.com/ThiepCuoiMinSu/" data-tabs="" data-width="300px" data-height="210px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/ThiepCuoiMinSu/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/ThiepCuoiMinSu/">Thiệp Cưới MinSu</a></blockquote></div>
                 </div>
             </div>
         </div>
+    </div>
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="js/jquery-3.4.1.js"></script>
@@ -300,6 +317,7 @@
         <script src="js/owl.carousel.js"></script>
         <script src="js/snow-plugin.js"></script>
         <script src="js/setup.js"></script>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v5.0"></script>
         <script>
             $(".snow-canvas").snow();
             var $videoSrc;
