@@ -128,11 +128,33 @@
                         <div class="video-item">
                             <div class="video-item-inner">
                                 <img src="img/test.jpg" alt="">
-                                <button type="button" class="btn  video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/Jfrjeg26Cwk" data-target="#myModal">
-                                    <i class="fa fa-play" aria-hidden="true"></i>
-                                </button>
+                                <div id="ytvideo" style="display:none;"></div>
+
+                                <!--<span id="homevideo" data-vidid="mbOEknbi4gQ">click me</span>-->
+                                <!--<button type="button" class="btn  video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/Jfrjeg26Cwk" data-target="#myModal">-->
+                                    <i id="homevideo" class="fa fa-play" aria-hidden="true" data-vidid="mbOEknbi4gQ"></i>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+            <!-- modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+
+                        <div class="modal-body">
+
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            <!-- 16:9 aspect ratio -->
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item" src="" id="video" allowscriptaccess="always" allow="autoplay"></iframe>
+                            </div>
+
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -207,10 +229,13 @@
             $('.video-btn').click(function() {
                 $videoSrc = $(this).data( "src" );
             });
-            console.log($videoSrc);
 
 
-
+            $(document).on('click','#homevideo',function(e){
+                $('.video-item-inner img').hide();
+                $('#homevideo').hide();
+                $('#ytvideo').html('<iframe width="939" height="528" id="ytvideo" frameborder="0" allowfullscreen src="http://www.youtube.com/embed/'+$(this).attr("data-vidid")+'?autoplay=1"></iframe>').show();
+            });
             // when the modal is opened autoplay it
             $('#myModal').on('shown.bs.modal', function (e) {
 
@@ -221,10 +246,10 @@
 
 
             // stop playing the youtube video when I close the modal
-            $('#myModal').on('hide.bs.modal', function (e) {
-                // a poor man's stop video
-                $("#video").attr('src',$videoSrc);
-            })
+            // $('#myModal').on('hide.bs.modal', function (e) {
+            //     // a poor man's stop video
+            //     $("#video").attr('src',$videoSrc);
+            // })
         </script>
     </body>
 

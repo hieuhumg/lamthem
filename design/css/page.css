@@ -447,10 +447,12 @@ p.content {
   background: #f7f7f7; }
   .product .wedding-widget {
     margin-top: 20px; }
+    .product .wedding-widget h5 {
+      text-align: center; }
 
 .footer {
   background: rgba(203, 204, 207, 0.2);
-  border-top: 17px solid rgba(0, 0, 0, 0.4); }
+  border-top: 10px solid rgba(0, 0, 0, 0.4); }
   .footer .logo-foot {
     text-align: left; }
     .footer .logo-foot img {
@@ -470,7 +472,18 @@ p.content {
   .footer ul.footer_box li a:hover {
     color: #212121; }
   .footer ul.footer_box .icon {
-    padding-top: 10px; }
+    padding-top: 10px;
+    position: fixed;
+    bottom: 58px;
+    right: -72px;
+    padding-left: 10px;
+    z-index: 99999;
+    background: #d2cdd0; }
+    @media screen and (max-width: 425px) {
+      .footer ul.footer_box .icon {
+        position: initial;
+        padding-left: 0px;
+        background: transparent; } }
     .footer ul.footer_box .icon i {
       font-size: 25px;
       padding-right: 18px;
@@ -515,6 +528,9 @@ p.content {
     .video-page .video-item {
       width: 100%; } }
 
+.copyright h5 {
+  padding-top: 11px; }
+
 .tab-menu > a {
   display: block; }
 
@@ -525,5 +541,22 @@ p.content {
 .search-input {
   top: -10px;
   right: 40px; }
+
+#ytvideo {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 400px;
+  overflow: hidden;
+  z-index: 999999999999999999999999999999; }
+
+#ytvideo iframe,
+#ytvideo object,
+#ytvideo embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
 
 /*# sourceMappingURL=page.css.map */

@@ -34,9 +34,8 @@
 	    </script>
 	</head>
 	<body class="show">
-    <div id="fb-root"></div>
         <div class="header">
-            <div class="container-fluid p-0">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="col-12 flex-mobile">
                         <div class="menu-mobile">
@@ -266,29 +265,9 @@
                         <div class="video-item">
                             <div class="video-item-inner">
                                     <img src="img/test.jpg" alt="">
-                                    <button type="button" class="btn  video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/Jfrjeg26Cwk" data-target="#myModal">
+                                    <button type="button" class="btn  video-btn-index" onclick="location.href='video.html'">
                                         <i class="fa fa-play" aria-hidden="true"></i>
                                     </button>
-                            </div>
-                        </div>
-                        <!-- modal -->
-                        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-
-                                    <div class="modal-body">
-
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                        <!-- 16:9 aspect ratio -->
-                                        <div class="embed-responsive embed-responsive-16by9">
-                                            <iframe class="embed-responsive-item" src="" id="video" allowscriptaccess="always" allow="autoplay"></iframe>
-                                        </div>
-
-                                    </div>
-
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -418,7 +397,7 @@
                             <div class="col-md-12 p-0">
                                 <div class="icon">
                                     <a href="" class="widget">
-                                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                                        <img src="img/facebook.png" alt="">
                                         <p class="content">facebook</p>
                                     </a>
                                     <a href="" class="widget">
@@ -426,13 +405,22 @@
                                         <p class="content">zalo</p>
                                     </a>
                                     <a href="" class="widget">
-                                        <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                                        <img src="img/yotube.png" alt="">
                                         <p class="content">youtube</p>
                                     </a>
                                 </div>
                             </div>
                         </ul>
-                        <div class="fb-page" data-href="https://www.facebook.com/ThiepCuoiMinSu/" data-tabs="" data-width="300px" data-height="210px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/ThiepCuoiMinSu/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/ThiepCuoiMinSu/">Thiệp Cưới MinSu</a></blockquote></div>
+                        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FThiepCuoiMinSu%2F&tabs=timeline&width=300px&height=210&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="300px" height="210" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h5 class="title text-center">copyright</h5>
                     </div>
                 </div>
             </div>
@@ -448,31 +436,25 @@
 		<script src="js/owl.carousel.js"></script>
         <script src="js/snow-plugin.js"></script>
 		<script src="js/setup.js"></script>
-        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v5.0"></script>
         <script>
             $(".snow-canvas").snow();
             var $videoSrc;
             $('.video-btn').click(function() {
                 $videoSrc = $(this).data( "src" );
             });
-            console.log($videoSrc);
 
-
-
+            // when the modal is opened autoplay it
+            $(document).on('click','#homevideo',function(e){
+                $('.video-item-inner img').hide();
+                $('#homevideo').hide();
+                $('#ytvideo').html('<iframe width="939" height="528" id="ytvideo" frameborder="0" allowfullscreen src="http://www.youtube.com/embed/'+$(this).attr("data-vidid")+'?autoplay=1"></iframe>').show();
+            });
             // when the modal is opened autoplay it
             $('#myModal').on('shown.bs.modal', function (e) {
 
 // set the video src to autoplay and not to show related video. Youtube related video is like a box of chocolates... you never know what you're gonna get
                 $("#video").attr('src',$videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0" );
             })
-
-
-
-            // stop playing the youtube video when I close the modal
-            $('#myModal').on('hide.bs.modal', function (e) {
-                // a poor man's stop video
-                $("#video").attr('src',$videoSrc);
-            });
 
             $(".mobile-sub-menu").hide(0);
             $(".ensub").click(function () {
