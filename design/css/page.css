@@ -413,7 +413,8 @@ p.content {
     object-fit: cover;
     padding: 10px 0; }
   .detail .detail-content h3 {
-    color: #683b1c; }
+    color: #683b1c;
+    font-size: 24px; }
   .detail .detail-content .content-relate {
     padding: 18px; }
 
@@ -474,7 +475,7 @@ p.content {
   .footer ul.footer_box .icon {
     padding-top: 10px;
     position: fixed;
-    bottom: 58px;
+    bottom: 200px;
     right: -72px;
     padding-left: 10px;
     z-index: 99999;
@@ -528,6 +529,12 @@ p.content {
     .video-page .video-item {
       width: 100%; } }
 
+.introduce {
+  margin-top: 80px; }
+  @media screen and (min-width: 1200px) {
+    .introduce {
+      margin-top: 20px; } }
+
 .copyright h5 {
   padding-top: 11px; }
 
@@ -558,5 +565,101 @@ p.content {
   left: 0;
   width: 100%;
   height: 100%; }
+
+.nav-mobile {
+  display: none;
+  opacity: 0;
+  transition: .75s; }
+  @media screen and (max-width: 768px) {
+    .nav-mobile {
+      display: inline;
+      opacity: 1;
+      flex: 1; } }
+
+.navBox {
+  overflow: hidden;
+  background: #d8d8d8; }
+  .navBox a {
+    display: block;
+    padding: 14px 10px;
+    color: #683b1c;
+    text-align: center;
+    text-decoration: none; }
+  .navBox .active {
+    background: #474747; }
+  .navBox ul {
+    max-width: 990px;
+    margin: 0 auto;
+    overflow: hidden; }
+    .navBox ul li {
+      float: left;
+      list-style: none; }
+      .navBox ul li .fa {
+        padding-left: 4px; }
+  .navBox .dropNav {
+    display: none;
+    width: 100%;
+    padding: 5px 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: inherit;
+    background: #474747;
+    z-index: 7;
+    overflow: hidden; }
+  .navBox > ul > li.active {
+    background-color: #474747; }
+
+@media only screen and (min-width: 991px) {
+  #openPageslide {
+    display: none; }
+
+  #pageslide {
+    display: block !important; }
+
+  .pageslideBg {
+    display: none !important; } }
+@media screen and (max-width: 768px) {
+  .navBox ul li {
+    float: none; }
+  .navBox > ul > li {
+    border-bottom: 1px solid gray; }
+    .navBox > ul > li > a {
+      padding: 10px; }
+  .navBox .dropNav {
+    position: static;
+    background: #bfbebe; }
+
+  #openPageslide {
+    display: block;
+    padding: 14px 10px;
+    width: 56px;
+    border-radius: 6px; }
+    #openPageslide span {
+      height: 22px;
+      display: block;
+      border: 1px solid #683b1c;
+      border-width: 7px 0; }
+
+  #pageslide {
+    display: none;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: -200px;
+    height: 100%;
+    z-index: 999999;
+    overflow-y: auto;
+    box-shadow: 0 4px 13px grey; }
+
+  .pageslideBg {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 99; } }
 
 /*# sourceMappingURL=page.css.map */
