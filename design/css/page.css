@@ -473,7 +473,7 @@ p.content {
   .footer ul.footer_box li a:hover {
     color: #212121; }
   .footer ul.footer_box .icon {
-    padding-top: 10px;
+    padding-top: 15px;
     position: fixed;
     bottom: 200px;
     right: -72px;
